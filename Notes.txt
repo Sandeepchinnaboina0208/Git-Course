@@ -1,4 +1,77 @@
-Git :
-Git is Distributed version control System
-Git is a free and open source software
+Git Version Control:-
+Git:
+-> Git is a Distributed Version Control System.
 
+Version Control:
+-> Power of going back to the previous version is called Version Control.
+
+Local Version Control:-
+-> Storing in the own machine.
+
+Centralized Version Control
+-> If many people work on the same project, they will have a centralized repository, and everyone can access it.
+-> They can commit and update the changes of the files.
+
+Distributed Version Control System
+-> Having an entire commit history and collaborate with other developers.
+
+Here's the extracted text from the image:
+
+Configuration of git (already having git connection)
+
+For connection of the git
+      --> git config --global --list
+
+For new Connection to git..
+      --> git config --global user.name "sandeep"
+      --> git config --global user.email "anurag@gmail.com"
+
+Create a Local repository
+git init
+
+→To check status of the repository
+      --> git status
+↳ By default master branch will be created
+
+To change the branch from master to main.
+      --> git init -b main
+
+Add any text or code then the file created in the working directory and it does not save in the Local repository
+
+Local repos (c:\git)
+Working Directory
+Files
+Staging Area
+
+To add the file in the local repository
+
+   --> git add file name
+
+To know the all initial Commits in the repository
+then use
+    --> git log
+
+To commit the files
+Use
+
+     --> git commit -m "message"
+
+Shipping the Staging area
+
+If any Commit happen first we have to staged the file means
+    --> git add "filename"
+
+→For skipping the Staging we can directly Commit it:
+    --> git commit -a -m "first commit"
+
+->To know the changes happen in the file Use
+    --> git diff
+
+When the Code is in Staged then know the Changes
+    --> git diff --staged
+
+Remove any file from the git:
+    --> git rm --cached filename
+
+To clone any repository:
+    --> git clone <link>
