@@ -5,14 +5,14 @@ Git:
 Version Control:
 -> Power of going back to the previous version is called Version Control.
 
-Local Version Control:-
+1) Local Version Control:-
 -> Storing in the own machine.
 
-Centralized Version Control
+2) Centralized Version Control
 -> If many people work on the same project, they will have a centralized repository, and everyone can access it.
 -> They can commit and update the changes of the files.
 
-Distributed Version Control System
+3) Distributed Version Control System
 -> Having an entire commit history and collaborate with other developers.
 
 Configuration of git (already having git connection)
@@ -22,7 +22,7 @@ For connection of the git
 
 For new Connection to git..
       --> git config --global user.name "sandeep"
-      --> git config --global user.email "anurag@gmail.com"
+      --> git config --global user.email "Your email"
 
 Create a Local repository :-
 git init
@@ -49,10 +49,9 @@ To know the all initial Commits in the repository
 then use
     --> git log
 
-To commit the files 
-Use
+To commit the files Use
 
-     --> git commit -m "message"
+    --> git commit -m "message"
 
 Shipping the Staging area
 
