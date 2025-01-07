@@ -15,8 +15,6 @@ Centralized Version Control
 Distributed Version Control System
 -> Having an entire commit history and collaborate with other developers.
 
-Here's the extracted text from the image:
-
 Configuration of git (already having git connection)
 
 For connection of the git
@@ -26,7 +24,7 @@ For new Connection to git..
       --> git config --global user.name "sandeep"
       --> git config --global user.email "anurag@gmail.com"
 
-Create a Local repository
+Create a Local repository :-
 git init
 
 →To check status of the repository
@@ -51,7 +49,7 @@ To know the all initial Commits in the repository
 then use
     --> git log
 
-To commit the files
+To commit the files 
 Use
 
      --> git commit -m "message"
@@ -75,3 +73,17 @@ Remove any file from the git:
 
 To clone any repository:
     --> git clone <link>
+
+To push all your code in the github you should follow some steps :
+
+Step 1 :- Create a public or private Repository in your github account
+Step 2 :- Create a new branch in your local repository
+        --> git init -b main
+Step 3 :- Add all the files in the staging area
+        --> git add .
+Step 4 :- Commit the files with a meaningful message
+        --> git commit -m "message"
+Step 5:- To connect your local Repository to the git repository
+        --> git remote add origin <link>
+Step 6 :- Push the code to the github repository
+        --> git push -u origin main
