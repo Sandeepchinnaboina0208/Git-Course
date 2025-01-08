@@ -86,3 +86,56 @@ Step 5:- To connect your local Repository to the git repository
         --> git remote add origin <link>
 Step 6 :- Push the code to the github repository
         --> git push -u origin main
+
+Tagging:
+A version of your project is a tag. Let's say if you are working on a project and then you have done several commits and you release a new version, and you can give a tag to the version.
+
+To know the how many tags in the project then use
+        --> git tag 
+
+There are two types of tagging:
+        --> Annotated tagging
+        --> Light weight tagging
+
+To Create a tag:
+        --> git tag -a 'version number' -m "first release"
+
+To know the description of the tag :-
+        --> git show v1.0
+
+To push the tags use
+        --> git Push origin 'version name'
+
+Git Branch :-
+=> A branch in Git is simply a lightweight movable pointer to one of these commits. 
+=> The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. 
+=> Every time you commit, the master branch pointer moves forward automatically.
+
+To Create a branch:
+        --> git checkout -b 'branch name'
+
+To know how many branches in the project
+        -->git branch 
+
+Switch between branches:
+       --> git switch 'branch name'
+
+How the developers Or collaborators works on same project ?
+
+Step 1:- First sign in into your git repository.
+Step 2:- Get the authors Repository
+Step 3:- Fork the Repository.
+Step 4:- Work on the project and make a pull resquest.
+Step 5:- The pull request is reviewed by the maintainer.
+Step 6:- The maintainer merges the pull request.
+Step 7:- The pull request is closed.
+
+
+How to collaborate with other Repositories ?
+
+Step 1:- First open the Github Repository
+Step 2:- Go to the Repository Settings
+Step 3:- Click on the "Collaborators" tab
+Step 4:- Add the collaborator's email address
+Step 5:- Click on the "Add collaborator" button
+Step 6:- The collaborator will receive an email with instructions on how to accept the invitation.
